@@ -5,6 +5,15 @@ import { Button } from './ui/Button';
 import { MENU_ITEMS, CONTENT } from '../constants';
 import { motion, AnimatePresence } from 'framer-motion';
 
+// Mapeamento dos itens do menu para os IDs das seções
+const MENU_LINKS: Record<string, string> = {
+  "Portfólio de Serviços": "#portfolio-de-serviços",
+  "Integrações": "#integrações",
+  "Como Funciona": "#como-funciona",
+  "Clientes": "#clientes",
+  "FAQ": "#faq"
+};
+
 export const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -40,7 +49,7 @@ export const Navbar: React.FC = () => {
             {MENU_ITEMS.map((item) => (
               <a 
                 key={item} 
-                href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
+                href={MENU_LINKS[item] || `#${item.toLowerCase().replace(/\s+/g, '-')}`}
                 className="text-sm font-medium text-gray-600 hover:text-primary transition-colors"
               >
                 {item}
@@ -76,7 +85,7 @@ export const Navbar: React.FC = () => {
               {MENU_ITEMS.map((item) => (
                 <a 
                   key={item} 
-                  href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
+                  href={MENU_LINKS[item] || `#${item.toLowerCase().replace(/\s+/g, '-')}`}
                   className="text-base font-medium text-gray-800 hover:text-primary py-2"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >

@@ -8,7 +8,7 @@ import { ChevronRight } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
-    <Section className="pt-32 pb-20 md:pt-48 md:pb-32 bg-gradient-to-br from-white via-surface to-white relative overflow-hidden min-h-[90vh] border-b border-gray-200">
+    <Section className="pt-16 pb-16 md:pt-48 md:pb-32 bg-gradient-to-br from-white via-surface to-white relative overflow-hidden min-h-[85vh] md:min-h-[90vh] border-b border-gray-200">
       {/* Background Pattern for Mobile */}
       <div className="absolute inset-0 z-0 lg:hidden">
         <div className="absolute inset-0 bg-dot-pattern opacity-40" />
