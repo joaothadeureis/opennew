@@ -17,10 +17,10 @@ export const Navbar: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Use top-9 (approx 36px) to stick below the announcement bar
+  // Use top-10 on mobile and top-9 on desktop to stick below the announcement bar
   return (
     <nav 
-      className={`sticky top-9 w-full z-40 transition-all duration-300 border-b border-gray-50/50 ${
+      className={`sticky top-10 md:top-9 w-full z-40 transition-all duration-300 border-b border-gray-50/50 ${
         isScrolled || isMobileMenuOpen ? 'bg-white/90 backdrop-blur-md shadow-sm py-4' : 'bg-white/90 backdrop-blur-md py-6'
       }`}
     >

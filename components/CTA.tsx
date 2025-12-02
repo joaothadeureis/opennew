@@ -27,7 +27,7 @@ export const CTA: React.FC = () => {
                     <p className="text-lg text-gray-300 mb-8 leading-relaxed">
                         {CONTENT.cta_final.text}
                     </p>
-                    <div className="flex items-center gap-4 text-white/60 text-sm">
+                    <div className="flex flex-col sm:flex-row items-center gap-4 text-white/60 text-sm mt-4">
                         <div className="flex -space-x-3">
                             {CONTENT.cta_final.avatars.map((avatar, idx) => (
                                 <img 
@@ -38,7 +38,7 @@ export const CTA: React.FC = () => {
                                 />
                             ))}
                         </div>
-                        <span className="pl-2">Junte-se a centenas de parceiros satisfeitos.</span>
+                        <span className="sm:pl-2 text-center sm:text-left">Junte-se a centenas de parceiros satisfeitos.</span>
                     </div>
                 </div>
 
