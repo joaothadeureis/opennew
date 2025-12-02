@@ -32,7 +32,7 @@ export const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="space-y-6 md:space-y-8 text-center lg:text-left"
+            className="space-y-5 md:space-y-8 text-center lg:text-left"
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-secondary text-xs font-semibold tracking-wide uppercase">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse"/>
@@ -46,29 +46,29 @@ export const Hero: React.FC = () => {
             <p className="text-base md:text-lg text-gray-600 leading-relaxed max-w-lg mx-auto lg:mx-0">
               {CONTENT.hero.subheading}
             </p>
+
+            {/* Mobile Image - above the button */}
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="relative lg:hidden flex justify-center py-4"
+            >
+              <div className="relative w-full max-w-lg">
+                <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-accent/20 rounded-3xl blur-2xl opacity-50" />
+                <img 
+                  src={CONTENT.hero.image} 
+                  alt="OpenNew Dashboard" 
+                  className="relative w-full h-auto object-contain"
+                />
+              </div>
+            </motion.div>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-2 md:pt-4 justify-center lg:justify-start">
               <Button href={CONTENT.hero.cta_primary.link} className="group">
                 {CONTENT.hero.cta_primary.text}
                 <ChevronRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
               </Button>
-            </div>
-          </motion.div>
-
-          {/* Mobile Image - positioned better */}
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative lg:hidden flex justify-center mt-4"
-          >
-            <div className="relative w-full max-w-md">
-              <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-accent/20 rounded-3xl blur-2xl opacity-50" />
-              <img 
-                src={CONTENT.hero.image} 
-                alt="OpenNew Dashboard" 
-                className="relative w-full h-auto object-contain"
-              />
             </div>
           </motion.div>
           
