@@ -1,0 +1,221 @@
+{
+  "lp_id": "opennew_whitelabel",
+  "url": "https://whitelabel.opennew.com.br/",
+  "brand": {
+    "name": "OpenNew",
+    "colors": {
+      "primary": "#00B077",
+      "secondary": "#0C2F4A",
+      "accent": "#64D5C6",
+      "text_dark": "#1A1A1A",
+      "text_light": "#666666",
+      "background": "#FFFFFF",
+      "section_gray": "#F7F9FC"
+    },
+    "fonts": {
+      "primary": "Inter",
+      "secondary": "Poppins"
+    }
+  },
+
+  "structure": [
+    {
+      "section_id": "header",
+      "type": "navbar",
+      "logo": "/assets/opennew-logo.png",
+      "menu": [
+        "Portfólio de Serviços",
+        "Integrações",
+        "Como Funciona",
+        "Clientes",
+        "FAQ"
+      ],
+      "cta": {
+        "text": "Solicitar Demonstração",
+        "link": "#demo"
+      }
+    },
+
+    {
+      "section_id": "hero",
+      "type": "hero_banner",
+      "background": "light_gray",
+      "heading": "Você, dono de empresa, já pensou em ter um PABX em nuvem White Label?",
+      "subheading": "Sua solução em telefonia VoIP com sua marca, seu painel e sua experiência. Com a tecnologia OpenNew, você entrega uma plataforma robusta, moderna e escalável — como se fosse sua.",
+      "cta_primary": {
+        "text": "Solicitar Demonstração Gratuita",
+        "link": "#demo"
+      },
+      "image": "/assets/hero-pabx.png"
+    },
+
+    {
+      "section_id": "business_intro",
+      "type": "image_left_text_right",
+      "heading": "Seu Negócio Pronto para Escalar, Sem Barreiras.",
+      "text": "A OpenNew é parceira de empresas que desejam crescer oferecendo serviços cloud modernos. Com nosso serviço whitelabel, você personaliza com sua marca, painel, cores e domínio — e oferece uma plataforma completa de telefonia e atendimento em nuvem para seus clientes.",
+      "image": "/assets/business-man-tablet.png"
+    },
+
+    {
+      "section_id": "portfolio",
+      "type": "services_grid",
+      "heading": "Sua Marca, Nosso Poder: Um Portfólio Completo de Serviços",
+      "list": [
+        "Fila de Ligações",
+        "Registro de Tempo Médio de Espera (TME)",
+        "Registro de Tempo Médio de Atendimento (TMA)",
+        "Painéis e Dashboards Inteligentes",
+        "Roteamento Inteligente",
+        "URA Personalizável",
+        "Gravação de Chamadas"
+      ],
+      "image": "/assets/dashboard-example.png"
+    },
+
+    {
+      "section_id": "benefits",
+      "type": "benefits_cards_with_center_image",
+      "heading": "Vantagens da Parceria Whitelabel",
+      "cards": [
+        {
+          "icon": "shield",
+          "title": "Marca fortalecida e reconhecida",
+          "text": "Toda a plataforma com a sua identidade visual, domínio e painel exclusivo."
+        },
+        {
+          "icon": "bolt",
+          "title": "Lançamento rápido no mercado",
+          "text": "Seu negócio operacional em poucos dias, pronto para vender."
+        },
+        {
+          "icon": "dollar",
+          "title": "Sem custos de desenvolvimento",
+          "text": "Infraestrutura, servidores e manutenção por nossa conta."
+        },
+        {
+          "icon": "support",
+          "title": "Suporte e treinamento especializado",
+          "text": "Time preparado para capacitar você e sua equipe."
+        },
+        {
+          "icon": "code",
+          "title": "Escalabilidade ilimitada",
+          "text": "Plataforma preparada para crescer conforme a demanda do seu negócio."
+        }
+      ],
+      "center_image": "/assets/support-girl.png"
+    },
+
+    {
+      "section_id": "integrations",
+      "type": "logos_wall",
+      "heading": "Nossos parceiros para integrações",
+      "logos": [
+        "Algar",
+        "Voipvoice",
+        "Tiflux",
+        "iPlace",
+        "Freshdesk",
+        "Olos",
+        "Zendesk",
+        "Bitrix24",
+        "G Suite",
+        "Capys",
+        "ExactSales"
+      ]
+    },
+
+    {
+      "section_id": "steps",
+      "type": "steps_3",
+      "heading": "Sua Plataforma pronta em poucos passos",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Converse com Nossos Especialistas",
+          "text": "Mapeamos necessidades, objetivos e definimos o melhor setup para sua empresa."
+        },
+        {
+          "step": 2,
+          "title": "Personalize sua Marca",
+          "text": "Inserimos sua logo, domínio e identidade visual completa."
+        },
+        {
+          "step": 3,
+          "title": "Lançamento e Suporte",
+          "text": "Você começa a operar e vender com sua marca — com suporte contínuo da OpenNew."
+        }
+      ]
+    },
+
+    {
+      "section_id": "testimonials",
+      "type": "testimonials_slider",
+      "heading": "Depoimentos de clientes",
+      "testimonials": [
+        {
+          "name": "Cliente 1",
+          "text": "A solução Whitelabel da OpenNew transformou nosso negócio de telecom."
+        },
+        {
+          "name": "Cliente 2",
+          "text": "Rápido de lançar, fácil de usar e totalmente com a nossa marca."
+        }
+      ]
+    },
+
+    {
+      "section_id": "faq",
+      "type": "accordion_list",
+      "heading": "Dúvidas Comuns sobre a Parceria Whitelabel",
+      "items": [
+        {
+          "question": "A plataforma é realmente 100% personalizada com a minha marca?",
+          "answer": "Sim. Logo, cores, domínio e configuração visual ficam 100% com sua marca."
+        },
+        {
+          "question": "Qual tipo de suporte técnico a Opennew oferece aos parceiros whitelabel?",
+          "answer": "Suporte especializado, inclusive para onboarding, painel e operação da plataforma."
+        },
+        {
+          "question": "Preciso ter conhecimento técnico avançado para operar a plataforma?",
+          "answer": "Não. Nossa equipe guia todo o processo e oferece treinamento completo."
+        },
+        {
+          "question": "Em quanto tempo consigo lançar minha plataforma whitelabel?",
+          "answer": "Em poucos dias, dependendo da personalização necessária."
+        },
+        {
+          "question": "É possível integrar a plataforma com outros sistemas que eu utilizo?",
+          "answer": "Sim, através de integrações e APIs disponibilizadas."
+        }
+      ]
+    },
+
+    {
+      "section_id": "cta_final",
+      "type": "cta_banner",
+      "background": "light_gray",
+      "heading": "Sua Próxima Grande Oportunidade Começa Aqui",
+      "text": "Não perca tempo com desenvolvimento ou estrutura complexa. Foque nas vendas, enquanto nós cuidamos da tecnologia. Transforme sua marca com a plataforma whitelabel mais completa do mercado.",
+      "cta": {
+        "text": "Solicitar Demonstração",
+        "link": "#demo"
+      },
+      "image": "/assets/laptop-panel.png"
+    },
+
+    {
+      "section_id": "footer",
+      "type": "footer",
+      "copyright": "© 2025 Opennew. Todos os direitos reservados.",
+      "links": [
+        "Política de Privacidade",
+        "Termos de Uso",
+        "Contato"
+      ],
+      "whatsapp_button": true
+    }
+  ]
+}
